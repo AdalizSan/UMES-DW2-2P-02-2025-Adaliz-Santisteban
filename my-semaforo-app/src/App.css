@@ -1,0 +1,33 @@
+#root {
+  max-width: 120px;
+  padding: 4rem;
+}
+.semaforo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #9c9c9c;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.semaforo div {
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(224, 92, 92);
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+.semaforo div.active {
+  opacity: 2;
+}
+
+.segundos {
+
+  background-color: rgb(159, 170, 185);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
